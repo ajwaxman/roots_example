@@ -9,7 +9,17 @@
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
-<p>yes, it's that easy.</p>
+<div class="box"></div><br/><br/><br/><br/><br/>
+<ul>
+  <li>one!</li>
+  <li>two!</li>
+  <li>three!</li>
+</ul><br/><br/><br/><br/>
+<div class="gradient"></div><br/><br/>
+<div class="simple-gradient"></div><br/><br/>
+<div class="button-example"></div><br/><br/>
+<div class="button">click me</div><br/><br/>
+<div class="tom">tom</div>
     <script data-main="js/main" src="js/require.js"></script><script>protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://'; address = protocol + window.location.host + window.location.pathname + '/ws'; socket = new WebSocket(address);
 socket.onmessage = function(msg) {
   msg.data == 'reload' && window.location.reload();
